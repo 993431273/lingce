@@ -1,0 +1,2776 @@
+{
+  "summary": {
+    "total_issues": 346,
+    "critical": 1,
+    "warning": 196,
+    "info": 149
+  },
+  "issues": [
+    {
+      "type": "security",
+      "severity": "高危",
+      "file": "cli.py",
+      "line": 1029,
+      "message": "发现高危安全问题: eval_usage",
+      "snippet": ") as f:\n            eval(compile(f.read(), st"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 128,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 132,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 207,
+      "message": "发现魔法数字: 4093，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 226,
+      "message": "函数过长 (1311 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 281,
+      "message": "函数过长 (1256 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 296,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 308,
+      "message": "函数过长 (1229 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 317,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 330,
+      "message": "函数过长 (1207 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 363,
+      "message": "函数过长 (1174 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 364,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 385,
+      "message": "函数过长 (1152 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 395,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 425,
+      "message": "函数过长 (1112 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 439,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 443,
+      "message": "发现魔法数字: 6，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 478,
+      "message": "函数过长 (1059 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 485,
+      "message": "发现魔法数字: 308，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 489,
+      "message": "发现魔法数字: 307, 308，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 497,
+      "message": "发现魔法数字: 307, 308，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 506,
+      "message": "函数过长 (1031 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 510,
+      "message": "发现魔法数字: 6，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 534,
+      "message": "函数过长 (1003 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 546,
+      "message": "函数过长 (991 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 586,
+      "message": "发现魔法数字: 5000，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 669,
+      "message": "函数过长 (868 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 678,
+      "message": "发现魔法数字: 500，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 699,
+      "message": "函数过长 (838 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 708,
+      "message": "发现魔法数字: 4，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 711,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 727,
+      "message": "函数过长 (810 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 744,
+      "message": "函数过长 (793 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 751,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 761,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 779,
+      "message": "函数过长 (758 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 794,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 811,
+      "message": "函数过长 (726 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 814,
+      "message": "发现魔法数字: 500，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 824,
+      "message": "发现魔法数字: 500，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 835,
+      "message": "发现魔法数字: 500，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 837,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 864,
+      "message": "函数过长 (673 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 873,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 879,
+      "message": "函数过长 (658 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 885,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 904,
+      "message": "函数过长 (633 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 909,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 922,
+      "message": "函数过长 (615 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 953,
+      "message": "函数过长 (584 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 958,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 966,
+      "message": "函数过长 (571 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 980,
+      "message": "函数过长 (557 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1003,
+      "message": "函数过长 (534 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1057,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1129,
+      "message": "函数过长 (408 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1139,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1174,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1181,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1247,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1271,
+      "message": "函数过长 (266 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1298,
+      "message": "函数过长 (239 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1303,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1304,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1326,
+      "message": "函数过长 (211 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1347,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1360,
+      "message": "函数过长 (177 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1376,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1386,
+      "message": "函数过长 (151 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1403,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1407,
+      "message": "函数过长 (130 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1423,
+      "message": "函数过长 (114 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1479,
+      "message": "函数过长 (58 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "app.py",
+      "line": 1495,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "app.py",
+      "line": 1515,
+      "message": "裸 except 捕获所有异常，建议指定具体异常类型"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "blueprints.py",
+      "line": 19,
+      "message": "函数过长 (110 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "blueprints.py",
+      "line": 55,
+      "message": "函数过长 (74 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "blueprints.py",
+      "line": 70,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "blueprints.py",
+      "line": 91,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "blueprints.py",
+      "line": 105,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "cli.py",
+      "line": 41,
+      "message": "函数过长 (52 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 102,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "cli.py",
+      "line": 120,
+      "message": "函数过长 (79 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 249,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "cli.py",
+      "line": 305,
+      "message": "函数过长 (69 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 347,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 388,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 551,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 554,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "cli.py",
+      "line": 563,
+      "message": "函数过长 (133 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "cli.py",
+      "line": 600,
+      "message": "函数过长 (96 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 604,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "cli.py",
+      "line": 617,
+      "message": "函数过长 (79 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "cli.py",
+      "line": 644,
+      "message": "函数过长 (52 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 758,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 761,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "cli.py",
+      "line": 890,
+      "message": "发现魔法数字: 5000，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "config.py",
+      "line": 94,
+      "message": "函数过长 (274 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "config.py",
+      "line": 102,
+      "message": "函数过长 (266 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "config.py",
+      "line": 126,
+      "message": "函数过长 (242 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "config.py",
+      "line": 187,
+      "message": "函数过长 (181 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "config.py",
+      "line": 201,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "config.py",
+      "line": 218,
+      "message": "函数过长 (150 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "config.py",
+      "line": 256,
+      "message": "函数过长 (112 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "config.py",
+      "line": 285,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "config.py",
+      "line": 304,
+      "message": "函数过长 (64 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 52,
+      "message": "函数过长 (64 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 58,
+      "message": "函数过长 (58 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 61,
+      "message": "函数过长 (55 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "ctx.py",
+      "line": 138,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "ctx.py",
+      "line": 223,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "ctx.py",
+      "line": 233,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 309,
+      "message": "函数过长 (141 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 337,
+      "message": "函数过长 (113 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 357,
+      "message": "函数过长 (93 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 367,
+      "message": "函数过长 (83 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "ctx.py",
+      "line": 396,
+      "message": "函数过长 (54 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "ctx.py",
+      "line": 401,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "debughelpers.py",
+      "line": 54,
+      "message": "发现魔法数字: 307，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "debughelpers.py",
+      "line": 73,
+      "message": "发现魔法数字: 307, 308，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "debughelpers.py",
+      "line": 150,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "helpers.py",
+      "line": 76,
+      "message": "函数过长 (62 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "helpers.py",
+      "line": 78,
+      "message": "函数过长 (60 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 96,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 159,
+      "message": "发现魔法数字: 404，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 162,
+      "message": "发现魔法数字: 404，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 179,
+      "message": "发现魔法数字: 6，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 219,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 226,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 229,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 256,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 279,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 303,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 316,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 366,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 369,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 479,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 484,
+      "message": "发现魔法数字: 8, 2231，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 496,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 500,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 505,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 509,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 547,
+      "message": "发现魔法数字: 404，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "helpers.py",
+      "line": 563,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "helpers.py",
+      "line": 570,
+      "message": "函数过长 (56 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sessions.py",
+      "line": 148,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 164,
+      "message": "函数过长 (122 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 176,
+      "message": "函数过长 (110 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 185,
+      "message": "函数过长 (101 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 189,
+      "message": "函数过长 (97 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sessions.py",
+      "line": 196,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 201,
+      "message": "函数过长 (85 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 209,
+      "message": "函数过长 (77 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 216,
+      "message": "函数过长 (70 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 222,
+      "message": "函数过长 (64 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 229,
+      "message": "函数过长 (57 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 317,
+      "message": "函数过长 (82 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sessions.py",
+      "line": 336,
+      "message": "函数过长 (63 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "templating.py",
+      "line": 57,
+      "message": "函数过长 (68 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "templating.py",
+      "line": 60,
+      "message": "函数过长 (65 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "templating.py",
+      "line": 67,
+      "message": "函数过长 (58 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "templating.py",
+      "line": 200,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "templating.py",
+      "line": 215,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "testing.py",
+      "line": 124,
+      "message": "函数过长 (139 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "testing.py",
+      "line": 135,
+      "message": "函数过长 (128 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "testing.py",
+      "line": 184,
+      "message": "函数过长 (79 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "testing.py",
+      "line": 192,
+      "message": "函数过长 (71 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "testing.py",
+      "line": 203,
+      "message": "函数过长 (60 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "views.py",
+      "line": 30,
+      "message": "函数过长 (107 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "views.py",
+      "line": 78,
+      "message": "函数过长 (59 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "views.py",
+      "line": 86,
+      "message": "函数过长 (51 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "views.py",
+      "line": 101,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 60,
+      "message": "函数过长 (161 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "wrappers.py",
+      "line": 62,
+      "message": "发现魔法数字: 413，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "wrappers.py",
+      "line": 77,
+      "message": "发现魔法数字: 6，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 89,
+      "message": "函数过长 (132 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 93,
+      "message": "函数过长 (128 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "wrappers.py",
+      "line": 95,
+      "message": "发现魔法数字: 413，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 116,
+      "message": "函数过长 (105 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 120,
+      "message": "函数过长 (101 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "wrappers.py",
+      "line": 122,
+      "message": "发现魔法数字: 413，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 143,
+      "message": "函数过长 (78 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 147,
+      "message": "函数过长 (74 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "wrappers.py",
+      "line": 162,
+      "message": "函数过长 (59 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "__init__.py",
+      "line": 56,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\provider.py",
+      "line": 35,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "json\\provider.py",
+      "line": 38,
+      "message": "函数过长 (69 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "json\\provider.py",
+      "line": 41,
+      "message": "函数过长 (66 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "json\\provider.py",
+      "line": 49,
+      "message": "函数过长 (58 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\provider.py",
+      "line": 53,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\provider.py",
+      "line": 62,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\provider.py",
+      "line": 70,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\provider.py",
+      "line": 129,
+      "message": "发现魔法数字: 822，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\provider.py",
+      "line": 184,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\provider.py",
+      "line": 209,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\tag.py",
+      "line": 116,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "json\\tag.py",
+      "line": 249,
+      "message": "函数过长 (79 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "json\\tag.py",
+      "line": 256,
+      "message": "函数过长 (72 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 23,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 26,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 30,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 36,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 55,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 59,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 62,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 84,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 87,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 90,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 96,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 98,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 115,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 118,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 121,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 125,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 130,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 157,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 161,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "json\\__init__.py",
+      "line": 168,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 106,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 110,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 239,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 282,
+      "message": "函数过长 (683 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 342,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 413,
+      "message": "函数过长 (552 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 426,
+      "message": "函数过长 (539 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 433,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 443,
+      "message": "函数过长 (522 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 465,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 470,
+      "message": "函数过长 (495 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 479,
+      "message": "函数过长 (486 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 482,
+      "message": "函数过长 (483 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 489,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 498,
+      "message": "函数过长 (467 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 506,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 510,
+      "message": "函数过长 (455 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 516,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 523,
+      "message": "函数过长 (442 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 532,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 536,
+      "message": "函数过长 (429 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 540,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 543,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 550,
+      "message": "函数过长 (415 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 563,
+      "message": "函数过长 (402 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 570,
+      "message": "函数过长 (395 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 593,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 597,
+      "message": "函数过长 (368 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 605,
+      "message": "函数过长 (360 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 664,
+      "message": "函数过长 (301 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 672,
+      "message": "函数过长 (293 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 679,
+      "message": "函数过长 (286 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 686,
+      "message": "函数过长 (279 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 698,
+      "message": "函数过长 (267 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 706,
+      "message": "函数过长 (259 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 709,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 720,
+      "message": "函数过长 (245 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 727,
+      "message": "函数过长 (238 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 741,
+      "message": "函数过长 (224 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 749,
+      "message": "函数过长 (216 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 750,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 758,
+      "message": "函数过长 (207 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 765,
+      "message": "函数过长 (200 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 779,
+      "message": "函数过长 (186 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 807,
+      "message": "发现魔法数字: 9，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 813,
+      "message": "函数过长 (152 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 823,
+      "message": "函数过长 (142 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 848,
+      "message": "函数过长 (117 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 863,
+      "message": "发现魔法数字: 8，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 883,
+      "message": "函数过长 (82 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 893,
+      "message": "函数过长 (72 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 902,
+      "message": "发现魔法数字: 2，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\app.py",
+      "line": 911,
+      "message": "函数过长 (54 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\app.py",
+      "line": 916,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 41,
+      "message": "函数过长 (77 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\blueprints.py",
+      "line": 169,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 174,
+      "message": "函数过长 (459 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 213,
+      "message": "函数过长 (420 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 224,
+      "message": "函数过长 (409 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 233,
+      "message": "函数过长 (400 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 240,
+      "message": "函数过长 (393 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 246,
+      "message": "函数过长 (387 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 256,
+      "message": "函数过长 (377 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 273,
+      "message": "函数过长 (360 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\blueprints.py",
+      "line": 284,
+      "message": "发现魔法数字: 3，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 379,
+      "message": "函数过长 (254 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 380,
+      "message": "函数过长 (253 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 413,
+      "message": "函数过长 (220 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 444,
+      "message": "函数过长 (189 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 454,
+      "message": "函数过长 (179 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 461,
+      "message": "函数过长 (172 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 472,
+      "message": "函数过长 (161 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 478,
+      "message": "函数过长 (155 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 490,
+      "message": "函数过长 (143 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 497,
+      "message": "函数过长 (136 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 510,
+      "message": "函数过长 (123 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 516,
+      "message": "函数过长 (117 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 528,
+      "message": "函数过长 (105 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 535,
+      "message": "函数过长 (98 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 548,
+      "message": "函数过长 (85 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 554,
+      "message": "函数过长 (79 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 564,
+      "message": "函数过长 (69 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\blueprints.py",
+      "line": 574,
+      "message": "函数过长 (59 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 75,
+      "message": "函数过长 (625 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 217,
+      "message": "函数过长 (483 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 220,
+      "message": "函数过长 (480 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 224,
+      "message": "函数过长 (476 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 234,
+      "message": "函数过长 (466 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 241,
+      "message": "函数过长 (459 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 244,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 249,
+      "message": "函数过长 (451 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 265,
+      "message": "函数过长 (435 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 272,
+      "message": "函数过长 (428 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 277,
+      "message": "发现魔法数字: 5，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 284,
+      "message": "函数过长 (416 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 296,
+      "message": "函数过长 (404 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 304,
+      "message": "函数过长 (396 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 312,
+      "message": "函数过长 (388 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 320,
+      "message": "函数过长 (380 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 328,
+      "message": "函数过长 (372 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 336,
+      "message": "函数过长 (364 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 344,
+      "message": "函数过长 (356 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 360,
+      "message": "函数过长 (340 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 368,
+      "message": "函数过长 (332 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 383,
+      "message": "函数过长 (317 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 388,
+      "message": "函数过长 (312 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 414,
+      "message": "函数过长 (286 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 436,
+      "message": "函数过长 (264 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 446,
+      "message": "函数过长 (254 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 453,
+      "message": "函数过长 (247 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 460,
+      "message": "函数过长 (240 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 469,
+      "message": "函数过长 (231 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 487,
+      "message": "函数过长 (213 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 508,
+      "message": "函数过长 (192 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 542,
+      "message": "函数过长 (158 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 559,
+      "message": "函数过长 (141 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 584,
+      "message": "函数过长 (116 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 598,
+      "message": "函数过长 (102 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 606,
+      "message": "发现魔法数字: 404，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 607,
+      "message": "函数过长 (93 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 608,
+      "message": "发现魔法数字: 404，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 613,
+      "message": "函数过长 (87 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 614,
+      "message": "发现魔法数字: 500，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 621,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 626,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 635,
+      "message": "函数过长 (65 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "warning",
+      "file": "sansio\\scaffold.py",
+      "line": 642,
+      "message": "函数过长 (58 行)，建议拆分为小函数"
+    },
+    {
+      "type": "code_smell",
+      "severity": "info",
+      "file": "sansio\\scaffold.py",
+      "line": 651,
+      "message": "发现魔法数字: 7，建议定义为常量"
+    }
+  ],
+  "tests_generated": [
+    {
+      "file": "app.py",
+      "functions": [
+        "_make_timedelta",
+        "__init__",
+        "get_send_file_max_age",
+        "send_static_file",
+        "open_resource",
+        "open_instance_resource",
+        "create_jinja_environment",
+        "create_url_adapter",
+        "raise_routing_exception",
+        "update_template_context"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 36 个待测函数"
+    },
+    {
+      "file": "blueprints.py",
+      "functions": [
+        "__init__",
+        "get_send_file_max_age",
+        "send_static_file",
+        "open_resource"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 4 个待测函数"
+    },
+    {
+      "file": "cli.py",
+      "functions": [
+        "find_best_app",
+        "_called_with_wrong_args",
+        "find_app_by_string",
+        "prepare_import",
+        "locate_app",
+        "locate_app",
+        "locate_app",
+        "get_version",
+        "__init__",
+        "load_app"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 36 个待测函数"
+    },
+    {
+      "file": "config.py",
+      "functions": [
+        "__init__",
+        "__get__",
+        "__get__",
+        "__get__",
+        "__set__",
+        "__init__",
+        "from_envvar",
+        "from_prefixed_env",
+        "from_pyfile",
+        "from_object"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 14 个待测函数"
+    },
+    {
+      "file": "ctx.py",
+      "functions": [
+        "__getattr__",
+        "__setattr__",
+        "__delattr__",
+        "get",
+        "pop",
+        "setdefault",
+        "__contains__",
+        "__iter__",
+        "__repr__",
+        "after_this_request"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 33 个待测函数"
+    },
+    {
+      "file": "debughelpers.py",
+      "functions": [
+        "__init__",
+        "__str__",
+        "__init__",
+        "attach_enctype_error_multidict",
+        "__getitem__",
+        "_dump_loader_info",
+        "explain_template_loading_attempts"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 7 个待测函数"
+    },
+    {
+      "file": "helpers.py",
+      "functions": [
+        "get_debug_flag",
+        "get_load_dotenv",
+        "stream_with_context",
+        "stream_with_context",
+        "stream_with_context",
+        "streamed_response",
+        "generate",
+        "streamed_response",
+        "generate",
+        "decorator"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 26 个待测函数"
+    },
+    {
+      "file": "logging.py",
+      "functions": [
+        "wsgi_errors_stream",
+        "has_level_handler",
+        "create_logger"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 3 个待测函数"
+    },
+    {
+      "file": "sessions.py",
+      "functions": [
+        "permanent",
+        "permanent",
+        "__init__",
+        "on_update",
+        "__getitem__",
+        "get",
+        "setdefault",
+        "_fail",
+        "make_null_session",
+        "is_null_session"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 25 个待测函数"
+    },
+    {
+      "file": "templating.py",
+      "functions": [
+        "_default_template_ctx_processor",
+        "__init__",
+        "__init__",
+        "get_source",
+        "_get_source_explained",
+        "_get_source_fast",
+        "_iter_loaders",
+        "list_templates",
+        "_render",
+        "render_template"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 15 个待测函数"
+    },
+    {
+      "file": "testing.py",
+      "functions": [
+        "__init__",
+        "json_dumps",
+        "_get_werkzeug_version",
+        "__init__",
+        "session_transaction",
+        "_copy_environ",
+        "_request_from_builder_args",
+        "open",
+        "__enter__",
+        "__exit__"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 12 个待测函数"
+    },
+    {
+      "file": "views.py",
+      "functions": [
+        "dispatch_request",
+        "dispatch_request",
+        "as_view",
+        "view",
+        "view",
+        "get",
+        "post",
+        "__init_subclass__",
+        "dispatch_request"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 9 个待测函数"
+    },
+    {
+      "file": "wrappers.py",
+      "functions": [
+        "max_content_length",
+        "max_content_length",
+        "max_form_memory_size",
+        "max_form_memory_size",
+        "max_form_parts",
+        "max_form_parts",
+        "endpoint",
+        "blueprint",
+        "blueprints",
+        "_load_form_data"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 12 个待测函数"
+    },
+    {
+      "file": "__init__.py",
+      "functions": [
+        "__getattr__"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 1 个待测函数"
+    },
+    {
+      "file": "json\\provider.py",
+      "functions": [
+        "__init__",
+        "dumps",
+        "dump",
+        "loads",
+        "load",
+        "_prepare_response_obj",
+        "response",
+        "_default",
+        "dumps",
+        "loads"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 11 个待测函数"
+    },
+    {
+      "file": "json\\tag.py",
+      "functions": [
+        "check",
+        "to_json",
+        "to_python",
+        "__init__",
+        "check",
+        "to_json",
+        "to_python",
+        "tag",
+        "check",
+        "to_json"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 37 个待测函数"
+    },
+    {
+      "file": "json\\__init__.py",
+      "functions": [
+        "dumps",
+        "dump",
+        "loads",
+        "load",
+        "jsonify"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 5 个待测函数"
+    },
+    {
+      "file": "sansio\\app.py",
+      "functions": [
+        "_make_timedelta",
+        "__init__",
+        "to_python",
+        "to_url",
+        "_check_setup_finished",
+        "name",
+        "logger",
+        "jinja_env",
+        "create_jinja_environment",
+        "make_config"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 39 个待测函数"
+    },
+    {
+      "file": "sansio\\blueprints.py",
+      "functions": [
+        "__init__",
+        "add_url_rule",
+        "__init__",
+        "_check_setup_finished",
+        "record",
+        "record_once",
+        "wrapper",
+        "make_setup_state",
+        "register_blueprint",
+        "register"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 34 个待测函数"
+    },
+    {
+      "file": "sansio\\scaffold.py",
+      "functions": [
+        "setupmethod",
+        "wrapper_func",
+        "__init__",
+        "__repr__",
+        "_check_setup_finished",
+        "static_folder",
+        "static_folder",
+        "has_static_folder",
+        "static_url_path",
+        "static_url_path"
+      ],
+      "missing_test_file": true,
+      "message": "缺少测试文件，发现 43 个待测函数"
+    }
+  ],
+  "stats": {
+    "total_files": 24,
+    "languages": {
+      "Python": 24
+    },
+    "file_list": [
+      "app.py",
+      "blueprints.py",
+      "cli.py",
+      "config.py",
+      "ctx.py",
+      "debughelpers.py",
+      "globals.py",
+      "helpers.py",
+      "logging.py",
+      "sessions.py",
+      "signals.py",
+      "templating.py",
+      "testing.py",
+      "typing.py",
+      "views.py",
+      "wrappers.py",
+      "__init__.py",
+      "__main__.py",
+      "json\\provider.py",
+      "json\\tag.py",
+      "json\\__init__.py",
+      "sansio\\app.py",
+      "sansio\\blueprints.py",
+      "sansio\\scaffold.py"
+    ]
+  }
+}
