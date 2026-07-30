@@ -1,0 +1,39 @@
+name: LingCheck PR Review
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install
+        run: pip install -e .
+      - name: Scan
+        continue-on-error: true
+        run: python src/cli.py scan . --format json --output /tmp/lc.json
+      - name: Comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs=require('fs');
+            const p='/tmp/lc.json';
+            let b='## LingCheck Report\n\n';
+            if(fs.existsSync(p)){
+              const r=JSON.parse(fs.readFileSync(p,'utf8'));
+              const s=r.summary||{};
+              b+='High: '+(s.high||0)+' Medium: '+(s.medium||0)+' Low: '+(s.low||0)+' Total: '+(s.total||0)+'\n';
+            }else{
+              b+='No issues found\n';
+            }
+            github.rest.issues.createComment({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,body:b})
